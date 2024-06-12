@@ -7,7 +7,7 @@ dbConnect = ()=>{
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
-    .then(()=>{console.log("Database connected successfully")})
+    .then(()=>{console.log("Database connected successfully.")})
     .catch((err)=>{
         console.log("Sorry, DB Connection Issue Occured!!!");
         console.error(err);
